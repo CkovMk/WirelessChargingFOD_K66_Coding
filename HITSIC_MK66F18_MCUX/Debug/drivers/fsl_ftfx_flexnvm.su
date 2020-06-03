@@ -1,0 +1,20 @@
+fsl_ftfx_flexnvm.c:35:10:status_t FLEXNVM_Init(flexnvm_config_t*)	24	static
+fsl_ftfx_flexnvm.c:75:10:status_t FLEXNVM_DflashErase(flexnvm_config_t*, uint32_t, uint32_t, uint32_t)	32	static
+fsl_ftfx_flexnvm.c:87:10:status_t FLEXNVM_EraseAll(flexnvm_config_t*, uint32_t)	16	static
+fsl_ftfx_flexnvm.c:99:10:status_t FLEXNVM_DflashProgram(flexnvm_config_t*, uint32_t, uint8_t*, uint32_t)	32	static
+fsl_ftfx_flexnvm.c:112:10:status_t FLEXNVM_DflashProgramSection(flexnvm_config_t*, uint32_t, uint8_t*, uint32_t)	32	static
+fsl_ftfx_flexnvm.c:125:10:status_t FLEXNVM_ProgramPartition(flexnvm_config_t*, ftfx_partition_flexram_load_opt_t, uint32_t, uint32_t)	24	static
+fsl_ftfx_flexnvm.c:134:10:status_t FLEXNVM_ReadResource(flexnvm_config_t*, uint32_t, uint8_t*, uint32_t, ftfx_read_resource_opt_t)	32	static
+fsl_ftfx_flexnvm.c:144:10:status_t FLEXNVM_DflashVerifyErase(flexnvm_config_t*, uint32_t, uint32_t, ftfx_margin_value_t)	32	static
+fsl_ftfx_flexnvm.c:156:10:status_t FLEXNVM_VerifyEraseAll(flexnvm_config_t*, ftfx_margin_value_t)	16	static
+fsl_ftfx_flexnvm.c:161:10:status_t FLEXNVM_DflashVerifyProgram(flexnvm_config_t*, uint32_t, uint32_t, const uint8_t*, ftfx_margin_value_t, uint32_t*, uint32_t*)	48	static
+fsl_ftfx_flexnvm.c:179:10:status_t FLEXNVM_GetSecurityState(flexnvm_config_t*, ftfx_security_state_t*)	16	static
+fsl_ftfx_flexnvm.c:184:10:status_t FLEXNVM_SecurityBypass(flexnvm_config_t*, const uint8_t*)	16	static
+fsl_ftfx_flexnvm.c:190:10:status_t FLEXNVM_SetFlexramFunction(flexnvm_config_t*, ftfx_flexram_func_opt_t)	16	static
+fsl_ftfx_flexnvm.c:196:10:status_t FLEXNVM_EepromWrite(flexnvm_config_t*, uint32_t, uint8_t*, uint32_t)	32	static
+fsl_ftfx_flexnvm.c:276:10:status_t FLEXNVM_DflashSetProtection(flexnvm_config_t*, uint8_t)	16	static
+fsl_ftfx_flexnvm.c:298:10:status_t FLEXNVM_DflashGetProtection(flexnvm_config_t*, uint8_t*)	16	static
+fsl_ftfx_flexnvm.c:315:10:status_t FLEXNVM_EepromSetProtection(flexnvm_config_t*, uint8_t)	16	static
+fsl_ftfx_flexnvm.c:337:10:status_t FLEXNVM_EepromGetProtection(flexnvm_config_t*, uint8_t*)	16	static
+fsl_ftfx_flexnvm.c:354:10:status_t FLEXNVM_GetProperty(flexnvm_config_t*, flexnvm_property_tag_t, uint32_t*)	24	static
+fsl_ftfx_flexnvm.c:401:17:status_t flexnvm_convert_start_address(flexnvm_config_t*, uint32_t)	16	static

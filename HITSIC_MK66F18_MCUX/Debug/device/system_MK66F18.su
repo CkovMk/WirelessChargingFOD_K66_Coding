@@ -1,0 +1,3 @@
+system_MK66F18.c:82:6:void SystemInit()	8	static
+system_MK66F18.c:108:6:void SystemCoreClockUpdate()	16	static
+system_MK66F18.c:236:29:void SystemInitHook()	4	static

@@ -1,0 +1,7 @@
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_port.h:346:20:void PORT_SetPinMux(PORT_Type*, uint32_t, port_mux_t)	24	static
+pin_mux.c:78:6:void BOARD_InitBootPins()	4	static
+pin_mux.c:130:6:void RTEPIN_BasicPin()	8	static
+pin_mux.c:163:6:void RTEPIN_Uart0_SWO()	8	static
+pin_mux.c:249:6:void RTEPIN_Board()	104	static
+pin_mux.c:661:6:void RTEPIN_Uart0_SPP()	8	static

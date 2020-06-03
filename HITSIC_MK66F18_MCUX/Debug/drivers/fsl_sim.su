@@ -1,0 +1,2 @@
+fsl_sim.c:33:6:void SIM_SetUsbVoltRegulatorEnableMode(uint32_t)	16	static
+fsl_sim.c:46:6:void SIM_GetUniqueId(sim_uid_t*)	16	static

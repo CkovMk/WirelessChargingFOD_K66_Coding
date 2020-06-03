@@ -1,0 +1,53 @@
+ef_env.c:254:15:size_t set_status(uint8_t*, size_t, size_t)	32	static
+ef_env.c:278:15:size_t get_status(uint8_t*, size_t)	24	static
+ef_env.c:299:18:EfErrCode write_status(uint32_t, uint8_t*, size_t, size_t)	40	static
+ef_env.c:325:15:size_t read_status(uint32_t, uint8_t*, size_t)	32	static
+ef_env.c:338:13:void update_sector_cache(uint32_t, uint32_t)	24	static
+ef_env.c:368:13:bool get_sector_from_cache(uint32_t, uint32_t*)	24	static
+ef_env.c:384:13:void update_env_cache(const char*, size_t, uint32_t)	40	static
+ef_env.c:428:13:bool get_env_from_cache(const char*, size_t, uint32_t*)	64	static
+ef_env.c:457:17:uint32_t continue_ff_addr(uint32_t, uint32_t)	64	static
+ef_env.c:482:17:uint32_t find_next_env_addr(uint32_t, uint32_t)	64	static
+ef_env.c:509:17:uint32_t get_next_env_addr(sector_meta_data_t, env_meta_data_t)	24	static
+ef_env.c:545:18:EfErrCode read_env(env_meta_data_t)	144	static
+ef_env.c:603:18:EfErrCode read_sector_meta_data(uint32_t, sector_meta_data_t, bool)	160	static
+ef_env.c:679:17:uint32_t get_next_sector_addr(sector_meta_data_t)	24	static
+ef_env.c:702:13:void env_iterator(env_meta_data_t, void*, void*, bool (*)(env_meta_data_t, void*, void*))	56	static
+ef_env.c:732:13:bool find_env_cb(env_meta_data_t, void*, void*)	40	static
+ef_env.c:749:13:bool find_env_no_cache(const char*, env_meta_data_t)	24	static
+ef_env.c:758:13:bool find_env(const char*, env_meta_data_t)	24	static
+ef_env.c:782:13:bool ef_is_str(uint8_t*, size_t)	24	static
+ef_env.c:795:15:size_t get_env(const char*, void*, size_t, size_t*)	88	static
+ef_env.c:825:8:size_t ef_get_env_blob(const char*, void*, size_t, size_t*)	32	static
+ef_env.c:855:7:char* ef_get_env(const char*)	24	static
+ef_env.c:874:18:EfErrCode write_env_hdr(uint32_t, env_hdr_data_t)	24	static
+ef_env.c:887:18:EfErrCode format_sector(uint32_t, uint32_t)	88	static
+ef_env.c:915:18:EfErrCode update_sec_status(sector_meta_data_t, size_t, bool*)	56	static
+ef_env.c:945:13:void sector_iterator(sector_meta_data_t, sector_store_status_t, void*, void*, bool (*)(sector_meta_data_t, void*, void*), bool)	32	static
+ef_env.c:965:13:bool sector_statistics_cb(sector_meta_data_t, void*, void*)	32	static
+ef_env.c:978:13:bool alloc_env_cb(sector_meta_data_t, void*, void*)	32	static
+ef_env.c:996:17:uint32_t alloc_env(sector_meta_data_t, size_t)	40	static
+ef_env.c:1020:18:EfErrCode del_env(const char*, env_meta_data_t, bool)	128	static
+ef_env.c:1072:18:EfErrCode move_env(env_meta_data_t)	208	static
+ef_env.c:1135:17:uint32_t new_env(sector_meta_data_t, size_t)	24	static
+ef_env.c:1152:17:uint32_t new_env_by_kv(sector_meta_data_t, size_t, size_t)	32	static
+ef_env.c:1159:13:bool gc_check_cb(sector_meta_data_t, void*, void*)	32	static
+ef_env.c:1171:13:bool do_gc(sector_meta_data_t, void*, void*)	112	static
+ef_env.c:1202:13:void gc_collect()	48	static
+ef_env.c:1219:18:EfErrCode align_write(uint32_t, const uint32_t*, size_t)	48	static
+ef_env.c:1245:18:EfErrCode create_env_blob(sector_meta_data_t, const char*, const void*, size_t)	104	static
+ef_env.c:1332:11:EfErrCode ef_del_env(const char*)	24	static
+ef_env.c:1362:11:EfErrCode ef_del_and_save_env(const char*)	16	static
+ef_env.c:1367:18:EfErrCode set_env(const char*, const void*, size_t)	32	static
+ef_env.c:1413:11:EfErrCode ef_set_env_blob(const char*, const void*, size_t)	32	static
+ef_env.c:1443:11:EfErrCode ef_set_env(const char*, const char*)	16	static
+ef_env.c:1459:11:EfErrCode ef_set_and_save_env(const char*, const char*)	16	static
+ef_env.c:1469:11:EfErrCode ef_save_env()	4	static
+ef_env.c:1480:11:EfErrCode ef_env_set_default()	64	static
+ef_env.c:1521:13:bool print_env_cb(env_meta_data_t, void*, void*)	72	static
+ef_env.c:1572:6:void ef_print_env()	72	static
+ef_env.c:1634:13:bool check_sec_hdr_cb(sector_meta_data_t, void*, void*)	32	static
+ef_env.c:1647:13:bool check_and_recovery_gc_cb(sector_meta_data_t, void*, void*)	24	static
+ef_env.c:1659:13:bool check_and_recovery_env_cb(env_meta_data_t, void*, void*)	64	static
+ef_env.c:1687:11:EfErrCode ef_load_env()	104	static
+ef_env.c:1732:11:EfErrCode ef_env_init(const ef_env*, size_t)	32	static

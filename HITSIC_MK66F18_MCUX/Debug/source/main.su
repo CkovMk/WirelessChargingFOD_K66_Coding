@@ -1,0 +1,8 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+hitsic_hal.h:38:13:void HAL_EnterCritical()	4	static
+hitsic_hal.h:46:13:void HAL_ExitCritical()	4	static
+rte_i2c.h:76:13:void I2C_SimpleDeinit(I2C_Type*)	16	static
+main.cpp:73:6:void main()	16	static
+main.cpp:135:6:void EF_Demo()	16	static
+main.cpp:161:1:void __static_initialization_and_destruction_0(int, int)	16	static
+main.cpp:161:1:cpp)	8	static

@@ -1,0 +1,56 @@
+fsl_sdhc.h:751:24:uint32_t SDHC_GetPresentStatusFlags(SDHC_Type*)	16	static
+fsl_sdhc.h:819:20:void SDHC_SetDataBusWidth(SDHC_Type*, sdhc_data_bus_width_t)	16	static
+fsl_mmc.c:411:24:status_t MMC_SelectCard(mmc_card_t*, bool)	16	static
+fsl_mmc.c:418:24:status_t MMC_SetBlockCount(mmc_card_t*, uint32_t)	16	static
+fsl_mmc.c:425:24:status_t MMC_GoIdle(mmc_card_t*)	16	static
+fsl_mmc.c:432:24:status_t MMC_SetBlockSize(mmc_card_t*, uint32_t)	16	static
+fsl_mmc.c:462:17:status_t MMC_Transfer(mmc_card_t*, sdhc_transfer_t*, uint32_t)	32	static
+fsl_mmc.c:515:17:status_t MMC_WaitWriteComplete(mmc_card_t*)	56	static
+fsl_mmc.c:551:17:status_t MMC_StopTransmission(mmc_card_t*)	56	static
+fsl_mmc.c:574:17:status_t MMC_SwitchVoltage(mmc_card_t*, uint32_t*)	24	static
+fsl_mmc.c:624:17:status_t MMC_SendOperationCondition(mmc_card_t*, uint32_t)	64	static
+fsl_mmc.c:673:17:status_t MMC_SetRelativeAddress(mmc_card_t*)	56	static
+fsl_mmc.c:698:13:void MMC_DecodeCsd(mmc_card_t*, uint32_t*)	24	static
+fsl_mmc.c:786:13:void MMC_SetMaxFrequency(mmc_card_t*)	40	static
+fsl_mmc.c:805:17:status_t MMC_SetMaxEraseUnitSize(mmc_card_t*)	32	static
+fsl_mmc.c:838:17:status_t MMC_SetExtendedCsdConfig(mmc_card_t*, const mmc_extended_csd_config_t*)	64	static
+fsl_mmc.c:874:13:void MMC_DecodeExtendedCsd(mmc_card_t*, uint32_t*)	24	static
+fsl_mmc.c:965:17:status_t MMC_SendExtendedCsd(mmc_card_t*, uint8_t*, uint32_t)	104	static
+fsl_mmc.c:1028:17:status_t MMC_SetPowerClass(mmc_card_t*)	24	static
+fsl_mmc.c:1126:17:status_t MMC_SendTestPattern(mmc_card_t*, uint32_t, uint32_t*)	88	static
+fsl_mmc.c:1158:17:status_t MMC_ReceiveTestPattern(mmc_card_t*, uint32_t, uint32_t*)	88	static
+fsl_mmc.c:1189:17:status_t MMC_TestDataBusWidth(mmc_card_t*, mmc_data_bus_width_t)	88	static
+fsl_mmc.c:1275:17:status_t MMC_SetDataBusWidth(mmc_card_t*, mmc_data_bus_width_t)	24	static
+fsl_mmc.c:1296:17:status_t MMC_SetMaxDataBusWidth(mmc_card_t*, mmc_high_speed_timing_t)	24	static
+fsl_mmc.c:1392:17:status_t MMC_SwitchHSTiming(mmc_card_t*, uint8_t, uint8_t)	24	static
+fsl_mmc.c:1424:17:status_t MMC_SwitchToHighSpeed(mmc_card_t*)	32	static
+fsl_mmc.c:1490:17:status_t MMC_SwitchToHS200(mmc_card_t*, uint32_t)	16	static
+fsl_mmc.c:1549:17:status_t MMC_SwitchToHS400(mmc_card_t*)	16	static
+fsl_mmc.c:1618:17:status_t MMC_SelectBusTiming(mmc_card_t*)	24	static
+fsl_mmc.c:1671:13:void MMC_DecodeCid(mmc_card_t*, uint32_t*)	24	static
+fsl_mmc.c:1696:17:status_t MMC_AllSendCid(mmc_card_t*)	56	static
+fsl_mmc.c:1721:17:status_t MMC_SendCsd(mmc_card_t*)	56	static
+fsl_mmc.c:1748:17:status_t MMC_CheckBlockRange(mmc_card_t*, uint32_t, uint32_t)	32	static
+fsl_mmc.c:1783:17:status_t MMC_CheckEraseGroupRange(mmc_card_t*, uint32_t, uint32_t)	40	static
+fsl_mmc.c:1833:17:status_t MMC_Read(mmc_card_t*, uint8_t*, uint32_t, uint32_t, uint32_t)	88	static
+fsl_mmc.c:1911:17:status_t MMC_Write(mmc_card_t*, const uint8_t*, uint32_t, uint32_t, uint32_t)	88	static
+fsl_mmc.c:1996:10:status_t MMC_CardInit(mmc_card_t*)	32	static
+fsl_mmc.c:2113:6:void MMC_CardDeinit(mmc_card_t*)	16	static
+fsl_mmc.c:2120:10:status_t MMC_HostInit(mmc_card_t*)	16	static
+fsl_mmc.c:2135:6:void MMC_HostDeinit(mmc_card_t*)	16	static
+fsl_mmc.c:2144:6:void MMC_HostReset(sdhc_host_t*)	16	static
+fsl_mmc.c:2149:6:void MMC_PowerOnCard(SDHC_Type*, const sdmmchost_pwr_card_t*)	16	static
+fsl_mmc.c:2154:6:void MMC_PowerOffCard(SDHC_Type*, const sdmmchost_pwr_card_t*)	16	static
+fsl_mmc.c:2159:10:status_t MMC_Init(mmc_card_t*)	16	static
+fsl_mmc.c:2185:6:void MMC_Deinit(mmc_card_t*)	16	static
+fsl_mmc.c:2193:6:bool MMC_CheckReadOnly(mmc_card_t*)	16	static
+fsl_mmc.c:2201:10:status_t MMC_SelectPartition(mmc_card_t*, mmc_access_partition_t)	24	static
+fsl_mmc.c:2228:10:status_t MMC_ReadBlocks(mmc_card_t*, uint8_t*, uint32_t, uint32_t)	56	static
+fsl_mmc.c:2288:10:status_t MMC_WriteBlocks(mmc_card_t*, const uint8_t*, uint32_t, uint32_t)	56	static
+fsl_mmc.c:2348:10:status_t MMC_EraseGroups(mmc_card_t*, uint32_t, uint32_t)	72	static
+fsl_mmc.c:2431:10:status_t MMC_SetBootConfigWP(mmc_card_t*, uint8_t)	24	static
+fsl_mmc.c:2450:10:status_t MMC_SetBootPartitionWP(mmc_card_t*, mmc_boot_partition_wp_t)	24	static
+fsl_mmc.c:2469:10:status_t MMC_SetBootConfig(mmc_card_t*, const mmc_boot_config_t*)	24	static
+fsl_mmc.c:2554:10:status_t MMC_StartBoot(mmc_card_t*, const mmc_boot_config_t*, uint8_t*, sdhc_boot_config_t*)	88	static
+fsl_mmc.c:2638:10:status_t MMC_ReadBootData(mmc_card_t*, uint8_t*, sdhc_boot_config_t*)	88	static
+fsl_mmc.c:2670:10:status_t MMC_StopBoot(mmc_card_t*, uint32_t)	16	static

@@ -1,0 +1,7 @@
+fsl_clock.h:1045:20:void CLOCK_SetSimSafeDivs()	4	static
+fsl_clock.h:1437:20:void CLOCK_SetXtal0Freq(uint32_t)	16	static
+clock_config.c:73:13:void CLOCK_CONFIG_SetFllExtRefDiv(uint8_t)	16	static
+clock_config.c:81:6:void BOARD_InitBootClocks()	4	static
+clock_config.c:161:6:void RTECLK_HsRun_180MHz()	8	static
+clock_config.c:259:6:void RTECLK_MsRun_120MHz()	8	static
+clock_config.c:355:6:void RTECLK_LpRun_060MHz()	8	static

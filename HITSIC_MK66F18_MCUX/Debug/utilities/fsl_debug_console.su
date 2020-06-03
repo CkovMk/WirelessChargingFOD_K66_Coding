@@ -1,0 +1,9 @@
+fsl_debug_console.c:324:10:status_t DbgConsole_ReadOneCharacter(uint8_t*)	24	static
+fsl_debug_console.c:391:5:int DbgConsole_SendData(uint8_t*, size_t)	24	static
+fsl_debug_console.c:458:5:int DbgConsole_SendDataReliable(uint8_t*, size_t)	24	static
+fsl_debug_console.c:529:5:int DbgConsole_ReadLine(uint8_t*, size_t)	24	static
+fsl_debug_console.c:584:5:int DbgConsole_ReadCharacter(uint8_t*)	24	static
+fsl_debug_console.c:633:10:status_t DbgConsole_Init(uint8_t, uint32_t, serial_port_type_t, uint32_t)	64	static
+fsl_debug_console.c:757:10:status_t DbgConsole_Deinit()	8	static
+fsl_debug_console.c:1076:27:int _write(int, char*, int)	24	static
+fsl_debug_console.c:1097:27:int _read(int, char*, int)	32	static

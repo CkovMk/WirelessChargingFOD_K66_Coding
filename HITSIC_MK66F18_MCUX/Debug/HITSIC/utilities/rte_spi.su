@@ -1,0 +1,5 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+rte_spi.c:7:10:status_t SPI_SimpleInit(SPI_Type*, uint32_t, uint32_t)	64	static
+rte_spi.c:32:10:status_t SPI_FullDuplexXfer(SPI_Type*, uint32_t, uint8_t*, uint8_t*, uint32_t)	40	static
+rte_spi.c:43:1:void __static_initialization_and_destruction_0(int, int)	16	static
+rte_spi.c:43:1:c)	8	static

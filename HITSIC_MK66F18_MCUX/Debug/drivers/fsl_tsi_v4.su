@@ -1,0 +1,25 @@
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:737:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_tsi_v4.h:347:24:uint32_t TSI_GetStatusFlags(TSI_Type*)	16	static
+fsl_tsi_v4.h:393:20:void TSI_SetElectrodeOSCPrescaler(TSI_Type*, tsi_electrode_osc_prescaler_t)	16	static
+fsl_tsi_v4.h:405:20:void TSI_SetNumberOfScans(TSI_Type*, tsi_n_consecutive_scans_t)	16	static
+fsl_tsi_v4.h:419:20:void TSI_EnableModule(TSI_Type*, bool)	16	static
+fsl_tsi_v4.h:482:20:void TSI_StartSoftwareTrigger(TSI_Type*)	16	static
+fsl_tsi_v4.h:494:20:void TSI_SetMeasuredChannelNumber(TSI_Type*, uint8_t)	16	static
+fsl_tsi_v4.h:565:24:uint16_t TSI_GetCounter(TSI_Type*)	16	static
+fsl_tsi_v4.h:577:20:void TSI_SetLowThreshold(TSI_Type*, uint16_t)	16	static
+fsl_tsi_v4.h:591:20:void TSI_SetHighThreshold(TSI_Type*, uint16_t)	16	static
+fsl_tsi_v4.h:605:20:void TSI_SetAnalogMode(TSI_Type*, tsi_analog_mode_t)	16	static
+fsl_tsi_v4.h:628:20:void TSI_SetReferenceChargeCurrent(TSI_Type*, tsi_reference_osc_charge_current_t)	16	static
+fsl_tsi_v4.h:640:20:void TSI_SetElectrodeChargeCurrent(TSI_Type*, tsi_external_osc_charge_current_t)	16	static
+fsl_tsi_v4.h:652:20:void TSI_SetOscVoltageRails(TSI_Type*, tsi_osc_voltage_rails_t)	16	static
+fsl_tsi_v4.h:664:20:void TSI_SetElectrodeSeriesResistor(TSI_Type*, tsi_series_resistor_t)	16	static
+fsl_tsi_v4.h:676:20:void TSI_SetFilterBits(TSI_Type*, tsi_filter_bits_t)	16	static
+fsl_tsi_v4.c:25:6:void TSI_Init(TSI_Type*, const tsi_config_t*)	24	static
+fsl_tsi_v4.c:88:6:void TSI_Deinit(TSI_Type*)	16	static
+fsl_tsi_v4.c:116:6:void TSI_GetNormalModeDefaultConfig(tsi_config_t*)	16	static
+fsl_tsi_v4.c:149:6:void TSI_GetLowPowerModeDefaultConfig(tsi_config_t*)	16	static
+fsl_tsi_v4.c:179:6:void TSI_Calibrate(TSI_Type*, tsi_calibration_data_t*)	32	static
+fsl_tsi_v4.c:216:6:void TSI_EnableInterrupts(TSI_Type*, uint32_t)	24	static
+fsl_tsi_v4.c:245:6:void TSI_DisableInterrupts(TSI_Type*, uint32_t)	24	static
+fsl_tsi_v4.c:274:6:void TSI_ClearStatusFlags(TSI_Type*, uint32_t)	24	static

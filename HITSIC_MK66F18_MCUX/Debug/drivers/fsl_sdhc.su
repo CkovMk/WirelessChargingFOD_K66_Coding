@@ -1,0 +1,48 @@
+core_cm4.h:1679:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+core_cm4.h:1717:22:void __NVIC_DisableIRQ(IRQn_Type)	16	static
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:737:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_common.h:419:28:status_t EnableIRQ(IRQn_Type)	16	static
+fsl_common.h:457:28:status_t DisableIRQ(IRQn_Type)	16	static
+fsl_sdhc.h:640:20:void SDHC_EnableInterruptStatus(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.h:651:20:void SDHC_DisableInterruptStatus(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.h:662:20:void SDHC_EnableInterruptSignal(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.h:673:20:void SDHC_DisableInterruptSignal(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.h:691:24:uint32_t SDHC_GetEnabledInterruptStatusFlags(SDHC_Type*)	16	static
+fsl_sdhc.h:702:24:uint32_t SDHC_GetInterruptStatusFlags(SDHC_Type*)	16	static
+fsl_sdhc.h:713:20:void SDHC_ClearInterruptStatusFlags(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.h:748:24:uint32_t SDHC_GetPresentStatusFlags(SDHC_Type*)	16	static
+fsl_sdhc.h:884:20:void SDHC_WriteData(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.h:897:24:uint32_t SDHC_ReadData(SDHC_Type*)	16	static
+fsl_sdhc.c:222:17:uint32_t SDHC_GetInstance(SDHC_Type*)	24	static
+fsl_sdhc.c:236:13:void SDHC_SetTransferInterrupt(SDHC_Type*, bool)	24	static
+fsl_sdhc.c:263:13:void SDHC_StartTransfer(SDHC_Type*, sdhc_command_t*, sdhc_data_t*, sdhc_dma_mode_t)	48	static
+fsl_sdhc.c:353:17:status_t SDHC_ReceiveCommandResponse(SDHC_Type*, sdhc_command_t*)	16	static
+fsl_sdhc.c:385:17:uint32_t SDHC_ReadDataPort(SDHC_Type*, sdhc_data_t*, uint32_t)	40	static
+fsl_sdhc.c:433:17:status_t SDHC_ReadByDataPortBlocking(SDHC_Type*, sdhc_data_t*)	32	static
+fsl_sdhc.c:479:17:uint32_t SDHC_WriteDataPort(SDHC_Type*, sdhc_data_t*, uint32_t)	40	static
+fsl_sdhc.c:527:17:status_t SDHC_WriteByDataPortBlocking(SDHC_Type*, sdhc_data_t*)	32	static
+fsl_sdhc.c:585:17:status_t SDHC_SendCommandBlocking(SDHC_Type*, sdhc_command_t*)	24	static
+fsl_sdhc.c:609:17:status_t SDHC_TransferByDataPortBlocking(SDHC_Type*, sdhc_data_t*)	24	static
+fsl_sdhc.c:625:17:status_t SDHC_TransferByAdma2Blocking(SDHC_Type*, sdhc_data_t*)	24	static
+fsl_sdhc.c:649:17:status_t SDHC_TransferDataBlocking(sdhc_dma_mode_t, SDHC_Type*, sdhc_data_t*)	32	static
+fsl_sdhc.c:674:13:void SDHC_TransferHandleCardDetect(SDHC_Type*, sdhc_handle_t*, uint32_t)	24	static
+fsl_sdhc.c:692:13:void SDHC_TransferHandleCommand(SDHC_Type*, sdhc_handle_t*, uint32_t)	32	static
+fsl_sdhc.c:711:13:void SDHC_TransferHandleData(SDHC_Type*, sdhc_handle_t*, uint32_t)	32	static
+fsl_sdhc.c:745:13:void SDHC_TransferHandleSdioInterrupt(SDHC_Type*, sdhc_handle_t*)	16	static
+fsl_sdhc.c:753:13:void SDHC_TransferHandleSdioBlockGap(SDHC_Type*, sdhc_handle_t*)	16	static
+fsl_sdhc.c:781:6:void SDHC_Init(SDHC_Type*, const sdhc_config_t*)	24	static
+fsl_sdhc.c:833:6:void SDHC_Deinit(SDHC_Type*)	16	static
+fsl_sdhc.c:850:6:bool SDHC_Reset(SDHC_Type*, uint32_t, uint32_t)	24	static
+fsl_sdhc.c:872:6:void SDHC_GetCapability(SDHC_Type*, sdhc_capability_t*)	32	static
+fsl_sdhc.c:911:10:uint32_t SDHC_SetSdClock(SDHC_Type*, uint32_t, uint32_t)	48	static
+fsl_sdhc.c:1012:6:bool SDHC_SetCardActive(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.c:1049:6:void SDHC_SetTransferConfig(SDHC_Type*, const sdhc_transfer_config_t*)	16	static
+fsl_sdhc.c:1072:6:void SDHC_EnableSdioControl(SDHC_Type*, uint32_t, bool)	32	static
+fsl_sdhc.c:1138:6:void SDHC_SetMmcBootConfig(SDHC_Type*, const sdhc_boot_config_t*)	24	static
+fsl_sdhc.c:1175:10:status_t SDHC_SetAdmaTableConfig(SDHC_Type*, sdhc_dma_mode_t, uint32_t*, uint32_t, const uint32_t*, uint32_t)	48	static
+fsl_sdhc.c:1350:10:status_t SDHC_TransferBlocking(SDHC_Type*, uint32_t*, uint32_t, sdhc_transfer_t*)	48	static
+fsl_sdhc.c:1410:6:void SDHC_TransferCreateHandle(SDHC_Type*, sdhc_handle_t*, const sdhc_transfer_callback_t*, void*)	32	static
+fsl_sdhc.c:1463:10:status_t SDHC_TransferNonBlocking(SDHC_Type*, sdhc_handle_t*, uint32_t*, uint32_t, sdhc_transfer_t*)	48	static
+fsl_sdhc.c:1519:6:void SDHC_TransferHandleIRQ(SDHC_Type*, sdhc_handle_t*)	24	static
+fsl_sdhc.c:1552:6:void SDHC_DriverIRQHandler()	8	static

@@ -1,0 +1,22 @@
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:737:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_ftm.c:66:17:uint32_t FTM_GetInstance(FTM_Type*)	24	static
+fsl_ftm.c:85:13:void FTM_SetPwmSync(FTM_Type*, uint32_t)	32	static
+fsl_ftm.c:142:13:void FTM_SetReloadPoints(FTM_Type*, uint32_t)	32	static
+fsl_ftm.c:217:10:status_t FTM_Init(FTM_Type*, const ftm_config_t*)	24	static
+fsl_ftm.c:291:6:void FTM_Deinit(FTM_Type*)	16	static
+fsl_ftm.c:322:6:void FTM_GetDefaultConfig(ftm_config_t*)	16	static
+fsl_ftm.c:371:10:status_t FTM_SetupPwm(FTM_Type*, const ftm_chnl_pwm_signal_param_t*, uint8_t, ftm_pwm_mode_t, uint32_t, uint32_t)	48	static
+fsl_ftm.c:550:6:void FTM_UpdatePwmDutycycle(FTM_Type*, ftm_chnl_t, ftm_pwm_mode_t, uint8_t)	24	static
+fsl_ftm.c:595:6:void FTM_UpdateChnlEdgeLevelSelect(FTM_Type*, ftm_chnl_t, uint8_t)	24	static
+fsl_ftm.c:622:10:status_t FTM_SetupPwmMode(FTM_Type*, const ftm_chnl_pwm_config_param_t*, uint8_t, ftm_pwm_mode_t)	32	static
+fsl_ftm.c:731:6:void FTM_SetupInputCapture(FTM_Type*, ftm_chnl_t, ftm_input_capture_edge_t, uint32_t)	32	static
+fsl_ftm.c:778:6:void FTM_SetupOutputCompare(FTM_Type*, ftm_chnl_t, ftm_output_compare_mode_t, uint32_t)	32	static
+fsl_ftm.c:823:6:void FTM_SetupDualEdgeCapture(FTM_Type*, ftm_chnl_t, const ftm_dual_edge_capture_param_t*, uint32_t)	32	static
+fsl_ftm.c:874:6:void FTM_SetupQuadDecode(FTM_Type*, const ftm_phase_params_t*, const ftm_phase_params_t*, ftm_quad_decode_mode_t)	32	static
+fsl_ftm.c:924:6:void FTM_SetupFault(FTM_Type*, ftm_fault_input_t, const ftm_fault_param_t*)	24	static
+fsl_ftm.c:969:6:void FTM_EnableInterrupts(FTM_Type*, uint32_t)	24	static
+fsl_ftm.c:1013:6:void FTM_DisableInterrupts(FTM_Type*, uint32_t)	24	static
+fsl_ftm.c:1057:10:uint32_t FTM_GetEnabledInterrupts(FTM_Type*)	24	static
+fsl_ftm.c:1105:10:uint32_t FTM_GetStatusFlags(FTM_Type*)	24	static
+fsl_ftm.c:1145:6:void FTM_ClearStatusFlags(FTM_Type*, uint32_t)	16	static

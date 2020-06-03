@@ -1,0 +1,20 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+core_cm4.h:1679:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+core_cm4.h:1717:22:void __NVIC_DisableIRQ(IRQn_Type)	16	static
+core_cm4.h:1809:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+fsl_common.h:419:28:status_t EnableIRQ(IRQn_Type)	16	static
+fsl_common.h:457:28:status_t DisableIRQ(IRQn_Type)	16	static
+fsl_dmamux.h:75:20:void DMAMUX_EnableChannel(DMAMUX_Type*, uint32_t)	16	static
+fsl_dmamux.h:105:20:void DMAMUX_SetSource(DMAMUX_Type*, uint32_t, uint32_t)	24	static
+fsl_edma.h:460:20:void EDMA_EnableAutoStopRequest(DMA_Type*, uint32_t, bool)	24	static
+fsl_port.h:415:20:void PORT_SetPinInterruptConfig(PORT_Type*, uint32_t, port_interrupt_t)	24	static
+drv_cam.c:60:6:void CAMERA_Init()	40	static
+drv_cam.c:116:6:void CAMERA_CfgWrite()	16	static
+drv_cam.c:147:6:void CAMERA_CfgRead()	16	static
+drv_cam.c:163:10:uint16_t CAMERA_GetVersion()	8	static
+drv_cam.c:176:10:uint16_t CAMERA_SetExposeTime(uint16_t)	16	static
+drv_cam.c:188:6:void CAMERA_BeginXfer()	8	static
+drv_cam.c:195:6:void CAMERA_VSNC_ExtIntHandler()	8	static
+drv_cam.c:204:6:void CAMERA_Xfer_EdmaCallback(edma_handle_t*, void*, bool, uint32_t)	24	static
+drv_cam.c:233:1:void __static_initialization_and_destruction_0(int, int)	16	static
+drv_cam.c:233:1:c)	8	static

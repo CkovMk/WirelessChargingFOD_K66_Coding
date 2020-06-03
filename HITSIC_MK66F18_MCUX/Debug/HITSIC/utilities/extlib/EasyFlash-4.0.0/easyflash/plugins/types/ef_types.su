@@ -1,0 +1,35 @@
+ef_types.c:53:6:void ef_types_init(S2jHook*)	16	static
+ef_types.c:57:6:bool ef_get_bool(const char*)	24	static
+ef_types.c:67:6:char ef_get_char(const char*)	16	static
+ef_types.c:71:7:short int ef_get_short(const char*)	16	static
+ef_types.c:75:5:int ef_get_int(const char*)	16	static
+ef_types.c:79:6:long int ef_get_long(const char*)	24	static
+ef_types.c:89:7:float ef_get_float(const char*)	24	static
+ef_types.c:93:8:double ef_get_double(const char*)	24	static
+ef_types.c:110:13:void ef_get_array(const char*, void*, ef_array_types)	56	static
+ef_types.c:166:6:void ef_get_bool_array(const char*, bool*)	16	static
+ef_types.c:170:6:void ef_get_char_array(const char*, char*)	16	static
+ef_types.c:174:6:void ef_get_short_array(const char*, short int*)	16	static
+ef_types.c:178:6:void ef_get_int_array(const char*, int*)	16	static
+ef_types.c:182:6:void ef_get_long_array(const char*, long int*)	16	static
+ef_types.c:186:6:void ef_get_float_array(const char*, float*)	16	static
+ef_types.c:190:6:void ef_get_double_array(const char*, double*)	16	static
+ef_types.c:194:6:void ef_get_string_array(const char*, char**)	16	static
+ef_types.c:208:7:void* ef_get_struct(const char*, ef_types_get_cb)	32	static
+ef_types.c:220:11:EfErrCode ef_set_bool(const char*, bool)	24	static
+ef_types.c:230:11:EfErrCode ef_set_char(const char*, char)	16	static
+ef_types.c:234:11:EfErrCode ef_set_short(const char*, short int)	16	static
+ef_types.c:238:11:EfErrCode ef_set_int(const char*, int)	16	static
+ef_types.c:242:11:EfErrCode ef_set_long(const char*, long int)	40	static
+ef_types.c:250:11:EfErrCode ef_set_float(const char*, float)	24	static
+ef_types.c:254:11:EfErrCode ef_set_double(const char*, double)	64	static
+ef_types.c:272:18:EfErrCode ef_set_array(const char*, void*, size_t, ef_array_types)	64	static
+ef_types.c:344:11:EfErrCode ef_set_bool_array(const char*, bool*, size_t)	24	static
+ef_types.c:348:11:EfErrCode ef_set_char_array(const char*, char*, size_t)	24	static
+ef_types.c:352:11:EfErrCode ef_set_short_array(const char*, short int*, size_t)	24	static
+ef_types.c:356:11:EfErrCode ef_set_int_array(const char*, int*, size_t)	24	static
+ef_types.c:360:11:EfErrCode ef_set_long_array(const char*, long int*, size_t)	24	static
+ef_types.c:364:11:EfErrCode ef_set_float_array(const char*, float*, size_t)	24	static
+ef_types.c:368:11:EfErrCode ef_set_double_array(const char*, double*, size_t)	24	static
+ef_types.c:372:11:EfErrCode ef_set_string_array(const char*, char**, size_t)	24	static
+ef_types.c:384:11:EfErrCode ef_set_struct(const char*, void*, ef_types_set_cb)	40	static

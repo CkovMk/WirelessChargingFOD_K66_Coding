@@ -1,0 +1,2 @@
+hitsic_hal.c:32:10:status_t HAL_I2C_Mem_ReadBlocking(HAL_I2C_Type*, uint8_t, uint32_t, uint8_t, uint8_t*, uint32_t)	24	static
+hitsic_hal.c:45:10:status_t HAL_I2C_Mem_WriteBlocking(HAL_I2C_Type*, uint8_t, uint32_t, uint8_t, uint8_t*, uint32_t)	24	static

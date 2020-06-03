@@ -1,0 +1,19 @@
+core_cm4.h:1679:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+core_cm4.h:1717:22:void __NVIC_DisableIRQ(IRQn_Type)	16	static
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:737:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_common.h:419:28:status_t EnableIRQ(IRQn_Type)	16	static
+fsl_common.h:457:28:status_t DisableIRQ(IRQn_Type)	16	static
+fsl_cmt.h:226:20:void CMT_SetCarrirGenerateCountOne(CMT_Type*, uint32_t, uint32_t)	24	static
+fsl_cmt.h:252:20:void CMT_SetCarrirGenerateCountTwo(CMT_Type*, uint32_t, uint32_t)	24	static
+fsl_cmt.h:329:20:void CMT_EnableInterrupts(CMT_Type*, uint32_t)	16	static
+fsl_cmt.h:347:20:void CMT_DisableInterrupts(CMT_Type*, uint32_t)	16	static
+fsl_cmt.c:63:17:uint32_t CMT_GetInstance(CMT_Type*)	24	static
+fsl_cmt.c:89:6:void CMT_GetDefaultConfig(cmt_config_t*)	16	static
+fsl_cmt.c:113:6:void CMT_Init(CMT_Type*, const cmt_config_t*, uint32_t)	32	static
+fsl_cmt.c:152:6:void CMT_Deinit(CMT_Type*)	16	static
+fsl_cmt.c:174:6:void CMT_SetMode(CMT_Type*, cmt_mode_t, cmt_modulate_config_t*)	32	static
+fsl_cmt.c:213:12:cmt_mode_t CMT_GetMode(CMT_Type*)	24	static
+fsl_cmt.c:249:10:uint32_t CMT_GetCMTFrequency(CMT_Type*, uint32_t)	24	static
+fsl_cmt.c:299:6:void CMT_SetModulateMarkSpace(CMT_Type*, uint32_t, uint32_t)	24	static
+fsl_cmt.c:318:6:void CMT_SetIroState(CMT_Type*, cmt_infrared_output_state_t)	24	static

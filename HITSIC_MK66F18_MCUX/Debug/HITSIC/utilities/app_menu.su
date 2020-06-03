@@ -1,0 +1,21 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+core_cm4.h:1679:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+core_cm4.h:1770:22:void __NVIC_ClearPendingIRQ(IRQn_Type)	16	static
+core_cm4.h:1809:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+app_menu.c:59:7:void MENU_Init()	24	static
+app_menu.c:131:14:void MENU_DataSetUp()	24	static
+app_menu.c:147:7:void MENU_PrintDisp()	16	static
+app_menu.c:167:7:void MENU_KeyOp(menu_keyOp_t*)	16	static
+app_menu.c:183:7:void MENU_Data_NvmSave(int32_t)	88	static
+app_menu.c:265:7:void MENU_Data_NvmSave_Boxed()	8	static
+app_menu.c:270:7:void MENU_Data_NvmRead(int32_t)	88	static
+app_menu.c:341:7:void MENU_Data_NvmRead_Boxed()	8	static
+app_menu.c:346:7:void MENU_Data_NvmSaveRegionConfig()	48	static
+app_menu.c:361:7:void MENU_Data_NvmReadRegionConfig()	48	static
+app_menu.c:370:7:void MENU_Data_NvmCopy(int32_t, int32_t)	32	static
+app_menu.c:382:7:void MENU_Data_NvmCopy_Boxed()	8	static
+app_menu.c:387:10:int32_t MENU_GetNvmStatus()	8	static
+app_menu.c:393:7:void MENU_SetNvmStatus(int32_t)	16	static
+app_menu.c:402:7:void Reserved71_IRQHandler()	8	static
+app_menu.c:419:1:void __static_initialization_and_destruction_0(int, int)	16	static
+app_menu.c:419:1:c)	8	static

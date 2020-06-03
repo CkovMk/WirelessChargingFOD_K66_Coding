@@ -1,0 +1,61 @@
+cmath:542:3:constexpr int std::fpclassify(double)	24	static
+cmath:642:3:constexpr bool std::isnormal(double)	40	static
+cJSON.c:37:13:const char* cJSON_GetErrorPtr()	4	static
+cJSON.c:39:12:int cJSON_strcasecmp(const char*, const char*)	24	static
+cJSON.c:49:14:char* cJSON_strdup(const char*)	24	static
+cJSON.c:60:6:void cJSON_InitHooks(cJSON_Hooks*)	16	static
+cJSON.c:73:15:cJSON* cJSON_New_Item()	16	static
+cJSON.c:81:6:void cJSON_Delete(cJSON*)	24	static
+cJSON.c:96:20:const char* parse_number(cJSON*, const char*)	56	static
+cJSON.c:117:12:int pow2gt(int)	16	static
+cJSON.c:121:14:char* ensure(printbuffer*, int)	24	static
+cJSON.c:138:12:int update(printbuffer*)	32	static
+cJSON.c:147:14:char* print_number(cJSON*, printbuffer*)	40	static
+cJSON.c:178:17:unsigned int parse_hex4(const char*)	24	static
+cJSON.c:193:20:const char* parse_string(cJSON*, const char*)	40	static
+cJSON.c:253:14:char* print_string_ptr(const char*, printbuffer*)	40	static
+cJSON.c:310:14:char* print_string(cJSON*, printbuffer*)	16	static
+cJSON.c:321:20:const char* skip(const char*)	16	static
+cJSON.c:324:8:cJSON* cJSON_ParseWithOpts(const char*, const char**, int)	32	static
+cJSON.c:340:8:cJSON* cJSON_Parse(const char*)	16	static
+cJSON.c:343:7:char* cJSON_Print(cJSON*)	16	static
+cJSON.c:344:7:char* cJSON_PrintUnformatted(cJSON*)	16	static
+cJSON.c:346:7:char* cJSON_PrintBuffered(cJSON*, int, int)	40	static
+cJSON.c:358:20:const char* parse_value(cJSON*, const char*)	16	static
+cJSON.c:373:14:char* print_value(cJSON*, int, int, printbuffer*)	32	static
+cJSON.c:407:20:const char* parse_array(cJSON*, const char*)	24	static
+cJSON.c:435:14:char* print_array(cJSON*, int, int, printbuffer*)	64	static
+cJSON.c:515:20:const char* parse_object(cJSON*, const char*)	24	static
+cJSON.c:551:14:char* print_object(cJSON*, int, int, printbuffer*)	88	static
+cJSON.c:662:8:int cJSON_GetArraySize(cJSON*)	24	static
+cJSON.c:663:8:cJSON* cJSON_GetArrayItem(cJSON*, int)	24	static
+cJSON.c:664:8:cJSON* cJSON_GetObjectItem(cJSON*, const char*)	24	static
+cJSON.c:665:5:int cJSON_HasObjectItem(cJSON*, const char*)	24	static
+cJSON.c:678:13:void suffix_object(cJSON*, cJSON*)	16	static
+cJSON.c:680:15:cJSON* create_reference(cJSON*)	24	static
+cJSON.c:683:8:void cJSON_AddItemToArray(cJSON*, cJSON*)	24	static
+cJSON.c:684:8:void cJSON_AddItemToObject(cJSON*, const char*, cJSON*)	24	static
+cJSON.c:685:8:void cJSON_AddItemToObjectCS(cJSON*, const char*, cJSON*)	24	static
+cJSON.c:686:6:void cJSON_AddItemReferenceToArray(cJSON*, cJSON*)	16	static
+cJSON.c:687:6:void cJSON_AddItemReferenceToObject(cJSON*, const char*, cJSON*)	24	static
+cJSON.c:689:8:cJSON* cJSON_DetachItemFromArray(cJSON*, int)	24	static
+cJSON.c:691:8:void cJSON_DeleteItemFromArray(cJSON*, int)	16	static
+cJSON.c:692:8:cJSON* cJSON_DetachItemFromObject(cJSON*, const char*)	24	static
+cJSON.c:693:8:void cJSON_DeleteItemFromObject(cJSON*, const char*)	16	static
+cJSON.c:696:8:void cJSON_InsertItemInArray(cJSON*, int, cJSON*)	32	static
+cJSON.c:698:8:void cJSON_ReplaceItemInArray(cJSON*, int, cJSON*)	32	static
+cJSON.c:701:8:void cJSON_ReplaceItemInObject(cJSON*, const char*, cJSON*)	32	static
+cJSON.c:704:8:cJSON* cJSON_CreateNull()	16	static
+cJSON.c:705:8:cJSON* cJSON_CreateTrue()	16	static
+cJSON.c:706:8:cJSON* cJSON_CreateFalse()	16	static
+cJSON.c:707:8:cJSON* cJSON_CreateBool(int)	24	static
+cJSON.c:708:8:cJSON* cJSON_CreateNumber(double)	32	static
+cJSON.c:709:8:cJSON* cJSON_CreateString(const char*)	24	static
+cJSON.c:710:8:cJSON* cJSON_CreateArray()	16	static
+cJSON.c:711:8:cJSON* cJSON_CreateObject()	16	static
+cJSON.c:714:8:cJSON* cJSON_CreateIntArray(const int*, int)	40	static
+cJSON.c:715:8:cJSON* cJSON_CreateFloatArray(const float*, int)	40	static
+cJSON.c:716:8:cJSON* cJSON_CreateDoubleArray(const double*, int)	32	static
+cJSON.c:717:8:cJSON* cJSON_CreateStringArray(const char**, int)	32	static
+cJSON.c:720:8:cJSON* cJSON_Duplicate(cJSON*, int)	40	static
+cJSON.c:747:6:void cJSON_Minify(char*)	24	static

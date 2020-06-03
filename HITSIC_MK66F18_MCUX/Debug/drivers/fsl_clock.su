@@ -1,0 +1,71 @@
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:737:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_clock.h:748:20:void CLOCK_SetEr32kClock(uint32_t)	16	static
+fsl_clock.h:821:20:void CLOCK_SetPllFllSelClock(uint32_t, uint32_t, uint32_t)	24	static
+fsl_clock.h:1371:20:void OSC_SetExtRefClkConfig(OSC_Type*, const oscer_config_t*)	24	static
+fsl_clock.h:1399:20:void OSC_SetCapLoad(OSC_Type*, uint8_t)	24	static
+fsl_clock.c:194:13:void CLOCK_FllStableDelay()	16	static
+fsl_clock.c:214:17:uint32_t CLOCK_GetMcgExtClkFreq()	16	static
+fsl_clock.c:241:17:uint32_t CLOCK_GetFllExtRefClkFreq()	16	static
+fsl_clock.c:295:17:uint32_t CLOCK_GetInternalRefClkSelectFreq()	4	static
+fsl_clock.c:309:17:uint32_t CLOCK_GetFllRefClkFreq()	8	static
+fsl_clock.c:323:17:uint32_t CLOCK_GetPll0RefFreq()	8	static
+fsl_clock.c:329:16:uint8_t CLOCK_GetOscRangeFromFreq(uint32_t)	24	static
+fsl_clock.c:354:10:uint32_t CLOCK_GetOsc0ErClkUndivFreq()	8	static
+fsl_clock.c:373:10:uint32_t CLOCK_GetOsc0ErClkDivFreq()	8	static
+fsl_clock.c:392:10:uint32_t CLOCK_GetEr32kClkFreq()	16	static
+fsl_clock.c:421:10:uint32_t CLOCK_GetPllFllSelClkFreq()	16	static
+fsl_clock.c:452:10:uint32_t CLOCK_GetOsc0ErClkFreq()	8	static
+fsl_clock.c:462:10:uint32_t CLOCK_GetPlatClkFreq()	8	static
+fsl_clock.c:472:10:uint32_t CLOCK_GetFlashClkFreq()	8	static
+fsl_clock.c:482:10:uint32_t CLOCK_GetFlexBusClkFreq()	8	static
+fsl_clock.c:492:10:uint32_t CLOCK_GetBusClkFreq()	8	static
+fsl_clock.c:502:10:uint32_t CLOCK_GetCoreSysClkFreq()	8	static
+fsl_clock.c:517:10:uint32_t CLOCK_GetFreq(clock_name_t)	24	static
+fsl_clock.c:581:6:void CLOCK_SetSimConfig(const sim_clock_config_t*)	16	static
+fsl_clock.c:595:6:bool CLOCK_EnableUsbfs0Clock(clock_usb_src_t, uint32_t)	24	static
+fsl_clock.c:653:6:bool CLOCK_EnableUsbhs0Clock(clock_usb_src_t, uint32_t)	16	static
+fsl_clock.c:674:6:void CLOCK_DisableUsbhs0Clock()	4	static
+fsl_clock.c:689:6:bool CLOCK_EnableUsbhs0PhyPllClock(clock_usb_phy_src_t, uint32_t)	24	static
+fsl_clock.c:751:6:void CLOCK_DisableUsbhs0PhyPllClock()	4	static
+fsl_clock.c:772:6:void CLOCK_EnableUsbhs0PfdClock(uint8_t, clock_usb_pfd_src_t)	24	static
+fsl_clock.c:808:6:void CLOCK_DisableUsbhs0PfdClock()	4	static
+fsl_clock.c:822:10:uint32_t CLOCK_GetOutClkFreq()	24	static
+fsl_clock.c:869:10:uint32_t CLOCK_GetFllFreq()	16	static
+fsl_clock.c:903:10:uint32_t CLOCK_GetInternalRefClkFreq()	8	static
+fsl_clock.c:922:10:uint32_t CLOCK_GetFixedFreqClkFreq()	16	static
+fsl_clock.c:945:10:uint32_t CLOCK_GetPll0Freq()	16	static
+fsl_clock.c:977:10:uint32_t CLOCK_GetExtPllFreq()	4	static
+fsl_clock.c:992:6:void CLOCK_SetExtPllFreq(uint32_t)	16	static
+fsl_clock.c:1009:10:status_t CLOCK_SetExternalRefClkConfig(mcg_oscsel_t)	24	static
+fsl_clock.c:1062:10:status_t CLOCK_SetInternalRefClkConfig(uint8_t, mcg_irc_mode_t, uint8_t)	24	static
+fsl_clock.c:1127:10:uint32_t CLOCK_CalcPllDiv(uint32_t, uint32_t, uint8_t*, uint8_t*)	48	static
+fsl_clock.c:1237:6:void CLOCK_EnablePll0(const mcg_pll_config_t*)	24	static
+fsl_clock.c:1265:6:void CLOCK_SetPllClkSel(mcg_pll_clk_select_t)	16	static
+fsl_clock.c:1280:6:void CLOCK_SetOsc0MonitorMode(mcg_monitor_mode_t)	16	static
+fsl_clock.c:1310:6:void CLOCK_SetRtcOscMonitorMode(mcg_monitor_mode_t)	24	static
+fsl_clock.c:1334:6:void CLOCK_SetPll0MonitorMode(mcg_monitor_mode_t)	24	static
+fsl_clock.c:1372:6:void CLOCK_SetExtPllMonitorMode(mcg_monitor_mode_t)	24	static
+fsl_clock.c:1415:10:uint32_t CLOCK_GetStatusFlags()	16	static
+fsl_clock.c:1463:6:void CLOCK_ClearStatusFlags(uint32_t)	24	static
+fsl_clock.c:1494:6:void CLOCK_InitOsc0(const osc_config_t*)	24	static
+fsl_clock.c:1517:6:void CLOCK_DeinitOsc0()	4	static
+fsl_clock.c:1541:10:status_t CLOCK_TrimInternalRefClk(uint32_t, uint32_t, uint32_t*, mcg_atm_select_t)	40	static
+fsl_clock.c:1624:12:mcg_mode_t CLOCK_GetMode()	32	static
+fsl_clock.c:1742:10:status_t CLOCK_SetFeiMode(mcg_dmx32_t, mcg_drs_t, void (*)())	24	static
+fsl_clock.c:1818:10:status_t CLOCK_SetFeeMode(uint8_t, mcg_dmx32_t, mcg_drs_t, void (*)())	24	static
+fsl_clock.c:1913:10:status_t CLOCK_SetFbiMode(mcg_dmx32_t, mcg_drs_t, void (*)())	24	static
+fsl_clock.c:1993:10:status_t CLOCK_SetFbeMode(uint8_t, mcg_dmx32_t, mcg_drs_t, void (*)())	24	static
+fsl_clock.c:2086:10:status_t CLOCK_SetBlpiMode()	4	static
+fsl_clock.c:2110:10:status_t CLOCK_SetBlpeMode()	4	static
+fsl_clock.c:2144:10:status_t CLOCK_SetPbeMode(mcg_pll_clk_select_t, const mcg_pll_config_t*)	16	static
+fsl_clock.c:2207:10:status_t CLOCK_SetPeeMode()	4	static
+fsl_clock.c:2244:10:status_t CLOCK_ExternalModeToFbeModeQuick()	4	static
+fsl_clock.c:2286:10:status_t CLOCK_InternalModeToFbiModeQuick()	4	static
+fsl_clock.c:2321:10:status_t CLOCK_BootToFeiMode(mcg_dmx32_t, mcg_drs_t, void (*)())	16	static
+fsl_clock.c:2341:10:status_t CLOCK_BootToFeeMode(mcg_oscsel_t, uint8_t, mcg_dmx32_t, mcg_drs_t, void (*)())	24	static
+fsl_clock.c:2362:10:status_t CLOCK_BootToBlpiMode(uint8_t, mcg_irc_mode_t, uint8_t)	16	static
+fsl_clock.c:2390:10:status_t CLOCK_BootToBlpeMode(mcg_oscsel_t)	16	static
+fsl_clock.c:2435:10:status_t CLOCK_BootToPeeMode(mcg_oscsel_t, mcg_pll_clk_select_t, const mcg_pll_config_t*)	16	static
+fsl_clock.c:2499:10:status_t CLOCK_SetMcgConfig(const mcg_config_t*)	32	static
+fsl_clock.c:2613:28:void SDK_DelayAtLeastUs(uint32_t)	56	static

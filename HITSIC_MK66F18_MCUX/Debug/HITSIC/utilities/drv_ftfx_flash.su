@@ -1,0 +1,11 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+drv_ftfx_flash.c:43:11:status_t FLASH_SimpleInit()	16	static
+drv_ftfx_flash.c:90:11:uint32_t FLASH_GetPhysicalAddress(uint32_t)	16	static
+drv_ftfx_flash.c:105:11:status_t FLASH_AddressRead(uint32_t, void*, uint32_t)	32	static
+drv_ftfx_flash.c:143:11:status_t FLASH_AddressProgram(uint32_t, void*, uint32_t)	56	static
+drv_ftfx_flash.c:174:11:status_t FLASH_SectorErase(uint32_t)	24	static
+drv_ftfx_flash.c:199:11:status_t FLASH_SectorRead(uint32_t, void*)	16	static
+drv_ftfx_flash.c:208:11:status_t FLASH_SectorProgram(uint32_t, void*)	16	static
+drv_ftfx_flash.c:217:11:status_t FLASH_SectorWrite(uint32_t, void*)	24	static
+drv_ftfx_flash.c:328:1:void __static_initialization_and_destruction_0(int, int)	16	static
+drv_ftfx_flash.c:328:1:c)	8	static

@@ -1,0 +1,9 @@
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:737:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_rnga.c:173:6:void RNGA_Init(RNG_Type*)	16	static
+fsl_rnga.c:197:6:void RNGA_Deinit(RNG_Type*)	16	static
+fsl_rnga.c:210:17:uint32_t rnga_ReadEntropy(RNG_Type*)	24	static
+fsl_rnga.c:235:10:status_t RNGA_GetRandomData(RNG_Type*, void*, size_t)	48	static
+fsl_rnga.c:287:6:void RNGA_SetMode(RNG_Type*, rnga_mode_t)	16	static
+fsl_rnga.c:300:13:rnga_mode_t RNGA_GetMode(RNG_Type*)	16	static
+fsl_rnga.c:314:6:void RNGA_Seed(RNG_Type*, uint32_t)	16	static

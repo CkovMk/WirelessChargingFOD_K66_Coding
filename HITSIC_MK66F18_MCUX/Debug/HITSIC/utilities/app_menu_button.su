@@ -1,0 +1,12 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+core_cm4.h:1755:22:void __NVIC_SetPendingIRQ(IRQn_Type)	16	static
+app_menu_button.c:22:2:void MENU_ButtonExtIsr0()	8	static
+app_menu_button.c:24:2:void MENU_ButtonExtIsr1()	8	static
+app_menu_button.c:26:2:void MENU_ButtonExtIsr2()	8	static
+app_menu_button.c:28:2:void MENU_ButtonExtIsr3()	8	static
+app_menu_button.c:30:2:void MENU_ButtonExtIsr4()	8	static
+app_menu_button.c:32:7:void MENU_ButtonSetup()	16	static
+app_menu_button.c:48:7:void MENU_ButtonPitIsr()	16	static
+app_menu_button.c:56:7:void MENU_ButtonCallback(button_t*)	24	static
+app_menu_button.c:88:1:void __static_initialization_and_destruction_0(int, int)	16	static
+app_menu_button.c:88:1:c)	8	static

@@ -1,0 +1,19 @@
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_rtc.h:409:20:void RTC_Reset(RTC_Type*)	16	static
+fsl_rtc.c:59:13:bool RTC_CheckDatetimeFormat(const rtc_datetime_t*)	40	static
+fsl_rtc.c:91:17:uint32_t RTC_ConvertDatetimeToSeconds(const rtc_datetime_t*)	56	static
+fsl_rtc.c:121:13:void RTC_ConvertSecondsToDatetime(uint32_t, rtc_datetime_t*)	56	static
+fsl_rtc.c:202:6:void RTC_Init(RTC_Type*, const rtc_config_t*)	24	static
+fsl_rtc.c:259:6:void RTC_GetDefaultConfig(rtc_config_t*)	16	static
+fsl_rtc.c:290:10:status_t RTC_SetDatetime(RTC_Type*, const rtc_datetime_t*)	16	static
+fsl_rtc.c:312:6:void RTC_GetDatetime(RTC_Type*, rtc_datetime_t*)	24	static
+fsl_rtc.c:335:10:status_t RTC_SetAlarm(RTC_Type*, const rtc_datetime_t*)	24	static
+fsl_rtc.c:371:6:void RTC_GetAlarm(RTC_Type*, rtc_datetime_t*)	24	static
+fsl_rtc.c:390:6:void RTC_EnableInterrupts(RTC_Type*, uint32_t)	24	static
+fsl_rtc.c:460:6:void RTC_DisableInterrupts(RTC_Type*, uint32_t)	24	static
+fsl_rtc.c:531:10:uint32_t RTC_GetEnabledInterrupts(RTC_Type*)	24	static
+fsl_rtc.c:600:10:uint32_t RTC_GetStatusFlags(RTC_Type*)	24	static
+fsl_rtc.c:670:6:void RTC_ClearStatusFlags(RTC_Type*, uint32_t)	16	static
+fsl_rtc.c:738:6:void RTC_GetMonotonicCounter(RTC_Type*, uint64_t*)	32	static
+fsl_rtc.c:752:6:void RTC_SetMonotonicCounter(RTC_Type*, uint64_t)	24	static
+fsl_rtc.c:773:10:status_t RTC_IncrementMonotonicCounter(RTC_Type*)	16	static

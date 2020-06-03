@@ -1,0 +1,10 @@
+core_cm4.h:1807:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+core_cm4.h:2014:26:uint32_t SysTick_Config(uint32_t)	16	static
+fsl_sdmmc_event.c:40:6:void SDMMCEVENT_InitTimer()	8	static
+fsl_sdmmc_event.c:46:6:void SysTick_Handler()	4	static
+fsl_sdmmc_event.c:51:27:volatile uint32_t* SDMMCEVENT_GetInstance(sdmmc_event_t)	24	static
+fsl_sdmmc_event.c:71:6:bool SDMMCEVENT_Create(sdmmc_event_t)	24	static
+fsl_sdmmc_event.c:86:6:bool SDMMCEVENT_Wait(sdmmc_event_t, uint32_t)	32	static
+fsl_sdmmc_event.c:110:6:bool SDMMCEVENT_Notify(sdmmc_event_t)	24	static
+fsl_sdmmc_event.c:125:6:void SDMMCEVENT_Delete(sdmmc_event_t)	24	static
+fsl_sdmmc_event.c:135:6:void SDMMCEVENT_Delay(uint32_t)	24	static

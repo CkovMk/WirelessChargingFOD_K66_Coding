@@ -1,0 +1,46 @@
+fsl_sdhc.h:641:20:void SDHC_EnableInterruptStatus(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.h:663:20:void SDHC_EnableInterruptSignal(SDHC_Type*, uint32_t)	16	static
+fsl_sdhc.h:819:20:void SDHC_SetDataBusWidth(SDHC_Type*, sdhc_data_bus_width_t)	16	static
+fsl_sdio.c:95:24:status_t SDIO_SelectCard(sdio_card_t*, bool)	16	static
+fsl_sdio.c:102:24:status_t SDIO_GoIdle(sdio_card_t*)	16	static
+fsl_sdio.c:109:17:status_t SDIO_SwitchVoltage(sdio_card_t*)	16	static
+fsl_sdio.c:122:17:status_t SDIO_ExecuteTuning(sdio_card_t*)	16	static
+fsl_sdio.c:133:17:status_t SDIO_SendRca(sdio_card_t*)	64	static
+fsl_sdio.c:169:10:status_t SDIO_CardInActive(sdio_card_t*)	16	static
+fsl_sdio.c:176:17:status_t SDIO_SendOperationCondition(sdio_card_t*, uint32_t)	64	static
+fsl_sdio.c:223:10:status_t SDIO_IO_Write_Direct(sdio_card_t*, sdio_func_num_t, uint32_t, uint8_t*, bool)	64	static
+fsl_sdio.c:254:10:status_t SDIO_IO_Read_Direct(sdio_card_t*, sdio_func_num_t, uint32_t, uint8_t*)	64	static
+fsl_sdio.c:283:10:status_t SDIO_IO_RW_Direct(sdio_card_t*, sdio_io_direction_t, sdio_func_num_t, uint32_t, uint8_t, uint8_t*)	64	static
+fsl_sdio.c:335:10:status_t SDIO_IO_Write_Extended(sdio_card_t*, sdio_func_num_t, uint32_t, uint8_t*, uint32_t, uint32_t)	88	static
+fsl_sdio.c:416:10:status_t SDIO_IO_Read_Extended(sdio_card_t*, sdio_func_num_t, uint32_t, uint8_t*, uint32_t, uint32_t)	88	static
+fsl_sdio.c:500:10:status_t SDIO_IO_Transfer(sdio_card_t*, sdio_command_t, uint32_t, uint32_t, uint8_t*, uint8_t*, uint16_t, uint32_t*)	96	static
+fsl_sdio.c:601:10:status_t SDIO_GetCardCapability(sdio_card_t*, sdio_func_num_t)	32	static
+fsl_sdio.c:702:10:status_t SDIO_SetBlockSize(sdio_card_t*, sdio_func_num_t, uint32_t)	40	static
+fsl_sdio.c:753:10:status_t SDIO_CardReset(sdio_card_t*)	24	static
+fsl_sdio.c:758:10:status_t SDIO_SetDataBusWidth(sdio_card_t*, sdio_bus_width_t)	32	static
+fsl_sdio.c:806:17:status_t SDIO_SetMaxDataBusWidth(sdio_card_t*)	24	static
+fsl_sdio.c:826:10:status_t SDIO_SwitchToHighSpeed(sdio_card_t*)	48	static
+fsl_sdio.c:880:17:status_t SDIO_SelectBusTiming(sdio_card_t*)	48	static
+fsl_sdio.c:1008:10:status_t SDIO_SetDriverStrength(sdio_card_t*, sd_driver_strength_t)	32	static
+fsl_sdio.c:1040:10:status_t SDIO_EnableAsyncInterrupt(sdio_card_t*, bool)	32	static
+fsl_sdio.c:1083:17:status_t SDIO_DecodeCIS(sdio_card_t*, sdio_func_num_t, uint8_t*, uint32_t, uint32_t)	24	static
+fsl_sdio.c:1164:10:status_t SDIO_ReadCIS(sdio_card_t*, sdio_func_num_t, const uint32_t*, uint32_t)	312	static
+fsl_sdio.c:1260:17:status_t SDIO_ProbeBusVoltage(sdio_card_t*)	24	static
+fsl_sdio.c:1331:10:status_t SDIO_CardInit(sdio_card_t*)	24	static
+fsl_sdio.c:1396:6:void SDIO_CardDeinit(sdio_card_t*)	16	static
+fsl_sdio.c:1404:10:status_t SDIO_HostInit(sdio_card_t*)	16	static
+fsl_sdio.c:1421:6:void SDIO_HostDeinit(sdio_card_t*)	16	static
+fsl_sdio.c:1431:6:void SDIO_HostReset(sdhc_host_t*)	16	static
+fsl_sdio.c:1436:10:status_t SDIO_WaitCardDetectStatus(SDHC_Type*, const sdmmchost_detect_card_t*, bool)	24	static
+fsl_sdio.c:1441:6:bool SDIO_IsCardPresent(sdio_card_t*)	16	static
+fsl_sdio.c:1446:6:void SDIO_PowerOnCard(SDHC_Type*, const sdmmchost_pwr_card_t*)	16	static
+fsl_sdio.c:1451:6:void SDIO_PowerOffCard(SDHC_Type*, const sdmmchost_pwr_card_t*)	16	static
+fsl_sdio.c:1456:10:status_t SDIO_Init(sdio_card_t*)	16	static
+fsl_sdio.c:1486:6:void SDIO_Deinit(sdio_card_t*)	16	static
+fsl_sdio.c:1494:10:status_t SDIO_EnableIOInterrupt(sdio_card_t*, sdio_func_num_t, bool)	32	static
+fsl_sdio.c:1545:10:status_t SDIO_GetPendingInterrupt(sdio_card_t*, uint8_t*)	24	static
+fsl_sdio.c:1560:10:status_t SDIO_EnableIO(sdio_card_t*, sdio_func_num_t, bool)	40	static
+fsl_sdio.c:1630:10:status_t SDIO_SelectIO(sdio_card_t*, sdio_func_num_t)	32	static
+fsl_sdio.c:1647:10:status_t SDIO_AbortIO(sdio_card_t*, sdio_func_num_t)	32	static
+fsl_sdio.c:1664:6:void SDIO_SetIOIRQHandler(sdio_card_t*, sdio_func_num_t, sdio_io_irq_handler_t)	24	static
+fsl_sdio.c:1673:10:status_t SDIO_HandlePendingIOInterrupt(sdio_card_t*)	24	static

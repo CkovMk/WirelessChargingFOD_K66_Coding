@@ -1,0 +1,11 @@
+fsl_lmem_cache.c:36:6:void LMEM_EnableCodeCache(LMEM_Type*, bool)	16	static
+fsl_lmem_cache.c:63:6:void LMEM_CodeCacheInvalidateAll(LMEM_Type*)	16	static
+fsl_lmem_cache.c:87:6:void LMEM_CodeCachePushAll(LMEM_Type*)	16	static
+fsl_lmem_cache.c:110:6:void LMEM_CodeCacheClearAll(LMEM_Type*)	16	static
+fsl_lmem_cache.c:145:6:void LMEM_CodeCacheInvalidateLine(LMEM_Type*, uint32_t)	24	static
+fsl_lmem_cache.c:182:6:void LMEM_CodeCacheInvalidateMultiLines(LMEM_Type*, uint32_t, uint32_t)	32	static
+fsl_lmem_cache.c:214:6:void LMEM_CodeCachePushLine(LMEM_Type*, uint32_t)	24	static
+fsl_lmem_cache.c:252:6:void LMEM_CodeCachePushMultiLines(LMEM_Type*, uint32_t, uint32_t)	32	static
+fsl_lmem_cache.c:284:6:void LMEM_CodeCacheClearLine(LMEM_Type*, uint32_t)	24	static
+fsl_lmem_cache.c:321:6:void LMEM_CodeCacheClearMultiLines(LMEM_Type*, uint32_t, uint32_t)	32	static
+fsl_lmem_cache.c:363:10:status_t LMEM_CodeCacheDemoteRegion(LMEM_Type*, lmem_cache_region_t, lmem_cache_mode_t)	32	static

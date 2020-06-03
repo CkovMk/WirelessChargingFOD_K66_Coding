@@ -1,0 +1,28 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+fsl_gpio.h:175:20:void GPIO_PortSet(GPIO_Type*, uint32_t)	16	static
+fsl_gpio.h:186:20:void GPIO_PortClear(GPIO_Type*, uint32_t)	16	static
+fsl_port.h:243:20:void PORT_SetPinConfig(PORT_Type*, uint32_t, const port_pin_config_t*)	32	static
+drv_disp_ssd1306.c:93:6:void OLED_SCL(uint8)	16	static
+drv_disp_ssd1306.c:105:6:void OLED_SDA(uint8)	16	static
+drv_disp_ssd1306.c:117:6:void OLED_RST(uint8)	16	static
+drv_disp_ssd1306.c:129:6:void OLED_DC(uint8)	16	static
+drv_disp_ssd1306.c:355:6:void OLED_WrByte(uint8)	24	static
+drv_disp_ssd1306.c:371:6:void OLED_WrDat(uint8)	16	static
+drv_disp_ssd1306.c:380:6:void OLED_WrCmd(uint8)	16	static
+drv_disp_ssd1306.c:387:6:void OLED_DLY_ms(uint16)	24	static
+drv_disp_ssd1306.c:409:6:void OLED_Set_Pos(uint8, uint8)	16	static
+drv_disp_ssd1306.c:423:6:void OLED_Fill(uint8)	24	static
+drv_disp_ssd1306.c:444:6:void OLED_Init()	8	static
+drv_disp_ssd1306.c:505:6:void OLED_PutPixel(uint8, uint8)	24	static
+drv_disp_ssd1306.c:525:6:void OLED_ClrPixel(uint8, uint8)	24	static
+drv_disp_ssd1306.c:547:6:void OLED_PrintStr_F6x8(uint8, uint8, uint8*)	24	static
+drv_disp_ssd1306.c:570:6:void OLED_PrintStr_F8x16(uint8, uint8, uint8*)	24	static
+drv_disp_ssd1306.c:592:6:void OLED_HEXACSII(uint16, uint8*)	24	static
+drv_disp_ssd1306.c:617:6:void OLED_PrintNum_F8x16(uint8, uint8, uint16)	32	static
+drv_disp_ssd1306.c:640:6:void OLED_PrintNum_F6x8(uint8, uint8, int16)	32	static
+drv_disp_ssd1306.c:657:6:void OLED_ImgGetHalfResolution(uint8_t*, uint8_t*, uint16_t, uint16_t)	32	static
+drv_disp_ssd1306.c:678:6:void OLED_DispBmp(uint16, uint16, uint8*, uint8)	40	static
+drv_disp_ssd1306.c:711:5:)	152	static
+drv_disp_ssd1306.c:734:6:void OLED_PrintHalfImg(camera_img_t*, uint8_t)	16	static
+drv_disp_ssd1306.c:739:1:void __static_initialization_and_destruction_0(int, int)	16	static
+drv_disp_ssd1306.c:739:1:c)	8	static

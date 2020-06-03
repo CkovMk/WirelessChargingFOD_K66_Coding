@@ -1,0 +1,14 @@
+hitsic_hal.h:38:13:void HAL_EnterCritical()	4	static
+hitsic_hal.h:46:13:void HAL_ExitCritical()	4	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+ef_port.c:51:11:EfErrCode ef_port_init(const ef_env**, size_t*)	24	static
+ef_port.c:71:11:EfErrCode ef_port_read(uint32_t, uint32_t*, size_t)	40	static
+ef_port.c:98:11:EfErrCode ef_port_erase(uint32_t, size_t)	40	static
+ef_port.c:131:11:EfErrCode ef_port_write(uint32_t, const uint32_t*, size_t)	40	static
+ef_port.c:151:6:void ef_port_env_lock()	8	static
+ef_port.c:161:6:void ef_port_env_unlock()	8	static
+ef_port.c:177:6:)	24	static
+ef_port.c:201:6:)	16	static
+ef_port.c:219:6:)	16	static
+ef_port.c:230:1:void __static_initialization_and_destruction_0(int, int)	16	static
+ef_port.c:230:1:c)	8	static

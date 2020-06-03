@@ -1,0 +1,41 @@
+core_cm4.h:1679:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:737:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_common.h:419:28:status_t EnableIRQ(IRQn_Type)	16	static
+fsl_uart.c:127:10:uint32_t UART_GetInstance(UART_Type*)	24	static
+fsl_uart.c:152:8:size_t UART_TransferGetRxRingBufferLength(uart_handle_t*)	24	static
+fsl_uart.c:170:13:bool UART_TransferIsRxRingBufferFull(uart_handle_t*)	24	static
+fsl_uart.c:210:10:status_t UART_Init(UART_Type*, const uart_config_t*, uint32_t)	40	static
+fsl_uart.c:354:6:void UART_Deinit(UART_Type*)	16	static
+fsl_uart.c:393:6:void UART_GetDefaultConfig(uart_config_t*)	16	static
+fsl_uart.c:433:10:status_t UART_SetBaudRate(UART_Type*, uint32_t, uint32_t)	40	static
+fsl_uart.c:514:6:void UART_EnableInterrupts(UART_Type*, uint32_t)	16	static
+fsl_uart.c:542:6:void UART_DisableInterrupts(UART_Type*, uint32_t)	16	static
+fsl_uart.c:577:10:uint32_t UART_GetEnabledInterrupts(UART_Type*)	24	static
+fsl_uart.c:607:10:uint32_t UART_GetStatusFlags(UART_Type*)	24	static
+fsl_uart.c:641:10:status_t UART_ClearStatusFlags(UART_Type*, uint32_t)	24	static
+fsl_uart.c:706:6:void UART_WriteBlocking(UART_Type*, const uint8_t*, size_t)	24	static
+fsl_uart.c:719:13:void UART_WriteNonBlocking(UART_Type*, const uint8_t*, size_t)	32	static
+fsl_uart.c:748:10:status_t UART_ReadBlocking(UART_Type*, uint8_t*, size_t)	32	static
+fsl_uart.c:790:13:void UART_ReadNonBlocking(UART_Type*, uint8_t*, size_t)	32	static
+fsl_uart.c:816:6:void UART_TransferCreateHandle(UART_Type*, uart_handle_t*, uart_transfer_callback_t, void*)	32	static
+fsl_uart.c:864:6:void UART_TransferStartRingBuffer(UART_Type*, uart_handle_t*, uint8_t*, size_t)	24	static
+fsl_uart.c:893:6:void UART_TransferStopRingBuffer(UART_Type*, uart_handle_t*)	16	static
+fsl_uart.c:933:10:status_t UART_TransferSendNonBlocking(UART_Type*, uart_handle_t*, uart_transfer_t*)	32	static
+fsl_uart.c:972:6:void UART_TransferAbortSend(UART_Type*, uart_handle_t*)	16	static
+fsl_uart.c:995:10:status_t UART_TransferGetSendCount(UART_Type*, uart_handle_t*, uint32_t*)	24	static
+fsl_uart.c:1036:10:status_t UART_TransferReceiveNonBlocking(UART_Type*, uart_handle_t*, uart_transfer_t*, size_t*)	56	static
+fsl_uart.c:1167:6:void UART_TransferAbortReceive(UART_Type*, uart_handle_t*)	16	static
+fsl_uart.c:1200:10:status_t UART_TransferGetReceiveCount(UART_Type*, uart_handle_t*, uint32_t*)	24	static
+fsl_uart.c:1228:6:void UART_TransferHandleIRQ(UART_Type*, uart_handle_t*)	32	static
+fsl_uart.c:1519:6:void UART_TransferHandleErrorIRQ(UART_Type*, uart_handle_t*)	16	static
+fsl_uart.c:1527:6:void UART0_DriverIRQHandler()	8	static
+fsl_uart.c:1537:6:void UART0_RX_TX_DriverIRQHandler()	8	static
+fsl_uart.c:1550:6:void UART1_DriverIRQHandler()	8	static
+fsl_uart.c:1560:6:void UART1_RX_TX_DriverIRQHandler()	8	static
+fsl_uart.c:1572:6:void UART2_DriverIRQHandler()	8	static
+fsl_uart.c:1582:6:void UART2_RX_TX_DriverIRQHandler()	8	static
+fsl_uart.c:1594:6:void UART3_DriverIRQHandler()	8	static
+fsl_uart.c:1604:6:void UART3_RX_TX_DriverIRQHandler()	8	static
+fsl_uart.c:1616:6:void UART4_DriverIRQHandler()	8	static
+fsl_uart.c:1626:6:void UART4_RX_TX_DriverIRQHandler()	8	static

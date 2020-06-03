@@ -1,0 +1,30 @@
+core_cm4.h:1679:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+core_cm4.h:1809:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+fsl_common.h:419:28:status_t EnableIRQ(IRQn_Type)	16	static
+fsl_pit.h:130:20:void PIT_SetTimerChainMode(PIT_Type*, pit_chnl_t, bool)	16	static
+fsl_pit.h:159:20:void PIT_EnableInterrupts(PIT_Type*, pit_chnl_t, uint32_t)	24	static
+fsl_pit.h:246:20:void PIT_SetTimerPeriod(PIT_Type*, pit_chnl_t, uint32_t)	24	static
+fsl_pit.h:286:20:void PIT_StartTimer(PIT_Type*, pit_chnl_t)	16	static
+fsl_ftm.h:667:20:void FTM_StartTimer(FTM_Type*, ftm_clock_source_t)	24	static
+fsl_ftm.h:920:20:void FTM_SetQuadDecoderModuloValue(FTM_Type*, uint32_t, uint32_t)	24	static
+fsl_adc16.h:360:20:void ADC16_EnableHardwareTrigger(ADC_Type*, bool)	16	static
+peripherals.c:76:6:void EDMA_init()	4	static
+peripherals.c:137:6:void PIT_init()	24	static
+peripherals.c:184:6:void GPIOA_init()	8	static
+peripherals.c:216:6:void GPIOB_init()	8	static
+peripherals.c:248:6:void GPIOC_init()	8	static
+peripherals.c:280:6:void GPIOD_init()	8	static
+peripherals.c:312:6:void GPIOE_init()	8	static
+peripherals.c:354:6:void I2C0_IMU_init()	8	static
+peripherals.c:458:6:void FTM0_MOTOR_init()	16	static
+peripherals.c:536:6:void FTM1_ENC_L_init()	8	static
+peripherals.c:616:6:void FTM2_ENC_R_init()	8	static
+peripherals.c:703:6:void FTM3_SERVO_init()	16	static
+peripherals.c:747:6:void UART3_CAM_init()	8	static
+peripherals.c:790:6:void UART0_init()	8	static
+peripherals.c:851:6:void ADC0_init()	8	static
+peripherals.c:918:6:void ADC1_init()	8	static
+peripherals.c:934:6:void RTEPIP_BasicPip()	8	static
+peripherals.c:950:6:void RTEPIP_Digital()	8	static
+peripherals.c:962:6:void RTEPIP_Analog()	8	static
+peripherals.c:972:6:void BOARD_InitBootPeripherals()	4	static

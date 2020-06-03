@@ -1,0 +1,5 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+drv_imu_port.c:15:14:status_t DRVIMU_icm_example_i2c_rx(uint8_t, uint8_t, uint8_t*, uint32_t)	32	static
+drv_imu_port.c:20:11:status_t DRVIMU_icm_example_i2c_tx(uint8_t, uint8_t, uint8_t*, uint32_t)	32	static
+drv_imu_port.c:31:1:void __static_initialization_and_destruction_0(int, int)	16	static
+drv_imu_port.c:31:1:c)	8	static

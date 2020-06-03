@@ -1,0 +1,8 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+SmartCar_Upload.c:39:6:void Putchar(char)	16	static
+SmartCar_Upload.c:51:6:void Send_Begin()	8	static
+SmartCar_Upload.c:64:7:void Send_Variable()	16	static
+SmartCar_Upload.c:104:6:void Img_Upload()	22584	static
+SmartCar_Upload.c:129:6:void Img_Upload_wxj(uint8_t*)	22584	static
+SmartCar_Upload.c:142:1:void __static_initialization_and_destruction_0(int, int)	16	static
+SmartCar_Upload.c:142:1:c)	8	static

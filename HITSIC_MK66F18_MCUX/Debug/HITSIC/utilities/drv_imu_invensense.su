@@ -1,0 +1,19 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+rte_i2c.h:76:13:void I2C_SimpleDeinit(I2C_Type*)	16	static
+drv_imu_invensense.c:28:7:void DRVIMU_INV_GetDefaultConfig(drvimu_inv_device_t*)	40	static
+drv_imu_invensense.c:51:7:void DRVIMU_INV_SetSerif(drvimu_inv_device_t*, drvimu_inv_serif_t*)	16	static
+drv_imu_invensense.c:56:7:void DRVIMU_INV_SetLPF(drvimu_inv_device_t*, drvimu_inv_accel_bw, drvimu_inv_gyro_bw)	16	static
+drv_imu_invensense.c:62:7:void DRVIMU_INV_SetFS(drvimu_inv_device_t*, drvimu_inv_accel_fs, drvimu_inv_gyro_fs)	16	static
+drv_imu_invensense.c:103:6:int DRVIMU_INV_Init(drvimu_inv_device_t*)	24	static
+drv_imu_invensense.c:170:7:void DRVIMU_INV_GyroOffset(drvimu_inv_device_t*)	32	static
+drv_imu_invensense.c:192:7:void DRVIMU_INV_AcceOffset(drvimu_inv_device_t*, float, float, float)	24	static
+drv_imu_invensense.c:201:7:void DRVIMU_INV_AcceCube(drvimu_inv_device_t*)	16	static
+drv_imu_invensense.c:297:7:void DRVIMU_INV_ReadReg(drvimu_inv_device_t*, uint8_t, uint8_t*, uint32_t)	40	static
+drv_imu_invensense.c:319:7:void DRVIMU_INV_WriteReg(drvimu_inv_device_t*, uint8_t, uint8_t*, uint32_t)	40	static
+drv_imu_invensense.c:341:7:void DRVIMU_INV_SensorReadBlocking(drvimu_inv_device_t*)	16	static
+drv_imu_invensense.c:365:7:void DRVIMU_INV_SetAxis(drvimu_inv_device_t*, drvimu_axis_t*, drvimu_axis_t*)	24	static
+drv_imu_invensense.c:579:7:void DRVIMU_INV_Delay_ms(uint32_t)	24	static
+drv_imu_invensense.c:591:7:)	156	static
+drv_imu_invensense.c:624:7:void DRVIMU_INV_Demo()	224	static
+drv_imu_invensense.c:662:1:void __static_initialization_and_destruction_0(int, int)	16	static
+drv_imu_invensense.c:662:1:c)	8	static

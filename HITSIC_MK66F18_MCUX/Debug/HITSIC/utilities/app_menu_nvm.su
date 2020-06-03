@@ -1,0 +1,8 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+app_menu_nvm.c:59:11:status_t MENU_NvmRead(uint32_t, void*, uint32_t)	24	static
+app_menu_nvm.c:65:7:bool MENU_NvmCacheable(uint32_t)	16	static
+app_menu_nvm.c:77:11:status_t MENU_NvmCacheSector(uint32_t)	16	static
+app_menu_nvm.c:101:11:status_t MENU_NvmWriteCache(uint32_t, void*, uint32_t)	24	static
+app_menu_nvm.c:115:11:status_t MENU_NvmUpdateCache()	8	static
+app_menu_nvm.c:141:1:void __static_initialization_and_destruction_0(int, int)	16	static
+app_menu_nvm.c:141:1:c)	8	static

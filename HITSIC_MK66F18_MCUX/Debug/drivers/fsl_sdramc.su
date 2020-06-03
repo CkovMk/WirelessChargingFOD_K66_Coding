@@ -1,0 +1,7 @@
+fsl_clock.h:726:20:void CLOCK_EnableClock(clock_ip_name_t)	24	static
+fsl_clock.h:737:20:void CLOCK_DisableClock(clock_ip_name_t)	24	static
+fsl_sdramc.h:241:20:void SDRAMC_EnableOperateValid(SDRAM_Type*, sdramc_block_selection_t, bool)	16	static
+fsl_sdramc.c:49:17:uint32_t SDRAMC_GetInstance(SDRAM_Type*)	24	static
+fsl_sdramc.c:98:6:void SDRAMC_Init(SDRAM_Type*, sdramc_config_t*)	32	static
+fsl_sdramc.c:140:6:void SDRAMC_Deinit(SDRAM_Type*)	16	static
+fsl_sdramc.c:169:6:void SDRAMC_SendCommand(SDRAM_Type*, sdramc_block_selection_t, sdramc_command_t)	16	static

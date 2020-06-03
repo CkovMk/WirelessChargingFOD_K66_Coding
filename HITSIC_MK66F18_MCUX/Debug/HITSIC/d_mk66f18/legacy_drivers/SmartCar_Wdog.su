@@ -1,0 +1,8 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+fsl_rcm.h:246:24:uint32_t RCM_GetPreviousResetSources(RCM_Type*)	24	static
+fsl_wdog.h:399:20:void WDOG_ClearResetCount(WDOG_Type*)	16	static
+SmartCar_Wdog.c:26:13:void WaitWctClose()	16	static
+SmartCar_Wdog.c:41:6:void Wdog_Init(uint32_t)	40	static
+SmartCar_Wdog.c:62:6:void Wdog_Feed()	8	static
+SmartCar_Wdog.c:69:1:void __static_initialization_and_destruction_0(int, int)	16	static
+SmartCar_Wdog.c:69:1:c)	8	static

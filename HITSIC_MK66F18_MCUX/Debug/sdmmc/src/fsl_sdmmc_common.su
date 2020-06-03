@@ -1,0 +1,9 @@
+fsl_sdmmc_common.c:25:10:status_t SDMMC_SelectCard(SDHC_Type*, sdhc_transfer_function_t, uint32_t, bool)	64	static
+fsl_sdmmc_common.c:58:10:status_t SDMMC_SendApplicationCommand(SDHC_Type*, sdhc_transfer_function_t, uint32_t)	64	static
+fsl_sdmmc_common.c:86:10:status_t SDMMC_SetBlockCount(SDHC_Type*, sdhc_transfer_function_t, uint32_t)	64	static
+fsl_sdmmc_common.c:107:10:status_t SDMMC_GoIdle(SDHC_Type*, sdhc_transfer_function_t)	56	static
+fsl_sdmmc_common.c:126:10:status_t SDMMC_SetBlockSize(SDHC_Type*, sdhc_transfer_function_t, uint32_t)	64	static
+fsl_sdmmc_common.c:147:10:status_t SDMMC_SetCardInactive(SDHC_Type*, sdhc_transfer_function_t)	56	static
+fsl_sdmmc_common.c:168:10:status_t SDMMC_SwitchVoltage(SDHC_Type*, sdhc_transfer_function_t)	64	static
+fsl_sdmmc_common.c:246:10:status_t SDMMC_SwitchToVoltage(SDHC_Type*, sdhc_transfer_function_t, sdmmchost_card_switch_voltage_t)	72	static
+fsl_sdmmc_common.c:334:10:status_t SDMMC_ExecuteTuning(SDHC_Type*, sdhc_transfer_function_t, uint32_t, uint32_t)	216	static

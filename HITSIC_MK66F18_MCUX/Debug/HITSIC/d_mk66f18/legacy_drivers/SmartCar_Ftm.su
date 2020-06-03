@@ -1,0 +1,13 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+fsl_ftm.h:667:20:void FTM_StartTimer(FTM_Type*, ftm_clock_source_t)	24	static
+fsl_ftm.h:920:20:void FTM_SetQuadDecoderModuloValue(FTM_Type*, uint32_t, uint32_t)	24	static
+fsl_ftm.h:932:24:uint32_t FTM_GetQuadDecoderCounterValue(FTM_Type*)	16	static
+fsl_ftm.h:944:20:void FTM_ClearQuadDecoderCounterValue(FTM_Type*)	16	static
+fsl_ftm.h:957:20:void FTM_SetSoftwareTrigger(FTM_Type*, bool)	16	static
+SmartCar_Ftm.c:33:6:void Ftm_PWM_Init(FTM_Type*, ftm_chnl_t, uint32_t, float)	80	static
+SmartCar_Ftm.c:112:6:void Ftm_PWM_Change(FTM_Type*, ftm_chnl_t, uint32_t, float)	32	static
+SmartCar_Ftm.c:131:6:void Ftm_QuadDecode_Init(FTM_Type*)	80	static
+SmartCar_Ftm.c:171:9:int16_t Ftm_GetSpeed(FTM_Type*)	16	static
+SmartCar_Ftm.c:183:6:void Ftm_ClearSpeed(FTM_Type*)	16	static
+SmartCar_Ftm.c:189:1:void __static_initialization_and_destruction_0(int, int)	16	static
+SmartCar_Ftm.c:189:1:c)	8	static

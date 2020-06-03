@@ -1,0 +1,48 @@
+fsl_sdhc.h:751:24:uint32_t SDHC_GetPresentStatusFlags(SDHC_Type*)	16	static
+fsl_sdhc.h:819:20:void SDHC_SetDataBusWidth(SDHC_Type*, sdhc_data_bus_width_t)	16	static
+fsl_sd.c:317:24:status_t SD_SendApplicationCmd(sd_card_t*, uint32_t)	16	static
+fsl_sd.c:324:24:status_t SD_GoIdle(sd_card_t*)	16	static
+fsl_sd.c:331:24:status_t SD_SetBlockSize(sd_card_t*, uint32_t)	16	static
+fsl_sd.c:338:24:status_t SD_ExecuteTuning(sd_card_t*)	16	static
+fsl_sd.c:348:17:status_t SD_SwitchVoltage(sd_card_t*)	16	static
+fsl_sd.c:361:17:status_t SD_StopTransmission(sd_card_t*)	64	static
+fsl_sd.c:387:17:status_t SD_Transfer(sd_card_t*, sdhc_transfer_t*, uint32_t)	32	static
+fsl_sd.c:419:17:status_t SD_WaitWriteComplete(sd_card_t*)	64	static
+fsl_sd.c:452:17:status_t SD_SendWriteSuccessBlocks(sd_card_t*, uint32_t*)	88	static
+fsl_sd.c:496:17:status_t SD_SendRca(sd_card_t*)	64	static
+fsl_sd.c:524:17:status_t SD_SwitchFunction(sd_card_t*, uint32_t, uint32_t, uint32_t, uint32_t*)	88	static
+fsl_sd.c:555:13:void SD_DecodeScr(sd_card_t*, uint32_t*)	24	static
+fsl_sd.c:613:17:status_t SD_SendScr(sd_card_t*)	112	static
+fsl_sd.c:675:17:status_t SD_SelectFunction(sd_card_t*, uint32_t, uint32_t)	136	static
+fsl_sd.c:788:17:status_t SD_SetDataBusWidth(sd_card_t*, sd_data_bus_width_t)	64	static
+fsl_sd.c:826:13:void SD_DecodeCsd(sd_card_t*, uint32_t*)	24	static
+fsl_sd.c:927:17:status_t SD_SendCsd(sd_card_t*)	64	static
+fsl_sd.c:957:13:void SD_DecodeCid(sd_card_t*, uint32_t*)	24	static
+fsl_sd.c:982:17:status_t SD_AllSendCid(sd_card_t*)	56	static
+fsl_sd.c:1006:17:status_t SD_ApplicationSendOperationCondition(sd_card_t*, uint32_t)	64	static
+fsl_sd.c:1059:17:status_t SD_SendInterfaceCondition(sd_card_t*)	64	static
+fsl_sd.c:1098:17:status_t SD_SelectBusTiming(sd_card_t*)	32	static
+fsl_sd.c:1227:13:void SD_DecodeStatus(sd_card_t*, uint32_t*)	16	static
+fsl_sd.c:1246:10:status_t SD_ReadStatus(sd_card_t*)	96	static
+fsl_sd.c:1314:10:status_t SD_SelectCard(sd_card_t*, bool)	16	static
+fsl_sd.c:1321:10:status_t SD_SetDriverStrength(sd_card_t*, sd_driver_strength_t)	24	static
+fsl_sd.c:1333:10:status_t SD_SetMaxCurrent(sd_card_t*, sd_max_current_t)	24	static
+fsl_sd.c:1345:17:status_t SD_Read(sd_card_t*, uint8_t*, uint32_t, uint32_t, uint32_t)	88	static
+fsl_sd.c:1389:17:status_t SD_Write(sd_card_t*, const uint8_t*, uint32_t, uint32_t, uint32_t, uint32_t*)	88	static
+fsl_sd.c:1461:17:status_t SD_Erase(sd_card_t*, uint32_t, uint32_t)	80	static
+fsl_sd.c:1538:6:bool SD_CheckReadOnly(sd_card_t*)	16	static
+fsl_sd.c:1546:10:status_t SD_ReadBlocks(sd_card_t*, uint8_t*, uint32_t, uint32_t)	56	static
+fsl_sd.c:1602:10:status_t SD_WriteBlocks(sd_card_t*, const uint8_t*, uint32_t, uint32_t)	56	static
+fsl_sd.c:1655:10:status_t SD_EraseBlocks(sd_card_t*, uint32_t, uint32_t)	48	static
+fsl_sd.c:1715:10:status_t SD_ProbeBusVoltage(sd_card_t*)	24	static
+fsl_sd.c:1802:10:status_t SD_CardInit(sd_card_t*)	24	static
+fsl_sd.c:1877:6:void SD_CardDeinit(sd_card_t*)	16	static
+fsl_sd.c:1884:10:status_t SD_HostInit(sd_card_t*)	16	static
+fsl_sd.c:1899:6:void SD_HostDeinit(sd_card_t*)	16	static
+fsl_sd.c:1908:6:void SD_HostReset(sdhc_host_t*)	16	static
+fsl_sd.c:1913:6:void SD_PowerOnCard(SDHC_Type*, const sdmmchost_pwr_card_t*)	16	static
+fsl_sd.c:1918:6:void SD_PowerOffCard(SDHC_Type*, const sdmmchost_pwr_card_t*)	16	static
+fsl_sd.c:1923:10:status_t SD_WaitCardDetectStatus(SDHC_Type*, const sdmmchost_detect_card_t*, bool)	24	static
+fsl_sd.c:1928:6:bool SD_IsCardPresent(sd_card_t*)	16	static
+fsl_sd.c:1933:10:status_t SD_Init(sd_card_t*)	16	static
+fsl_sd.c:1959:6:void SD_Deinit(sd_card_t*)	16	static
